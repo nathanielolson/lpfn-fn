@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+    "RemoteRootDirectory": ".",
+
+    "RemoteProtocol": "sftp",
+    "RemoteHostName": "blobsftplpfn01.blob.core.windows.net",
+    "RemoteUserName": "blobsftplpfn01.lpfntestpw",
+    "RemotePassword": "OUs3YjmzMk3cEl7a+Q9J13AYETzlEfbM",
+    "RemotePort": 22,
+    "SshHostKeyFingerprint": "ecdsa-sha2-nistp256 256 ixDeCdmQOB9ROqdJiVdXyFVsRqLmJJUb2M4shrWj8gI",
+
+    "PrivateKeyName": "LPFN TEST 2-23_0x2E62CA70_SECRET.asc",
+    "PrivateKeyPassPharase": "harvest take clean come 0",
+
+    "RemoveFilesOnRemote": false,
+    "ShouldDecrypt": true,
+
+    "BlobConnectionString": "UseDevelopmentStorage=true",
+    "BlobContainer": "newfiles",
+    "ContainerFolder": "container-folder"
+  }
+}
